@@ -1,0 +1,15 @@
+sudo: false # faster builds
+
+before_install:
+  - sudo apt-get -y install inkscape
+script:
+  - ./generate.sh
+deploy:
+  local_dir: output
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: master
+
