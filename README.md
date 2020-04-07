@@ -1,8 +1,8 @@
 # StopCorona-Poster
+
 **#stopcorona** poster design for your shop, window, public awareness act.
 
-![](/stopcorona-pic1.jpg)
-
+![](https://opencultureagency.github.io/StopCorona-Poster/CoronaVirus_A2_ENG_FINAL_Print.png)
 
 ---
 
